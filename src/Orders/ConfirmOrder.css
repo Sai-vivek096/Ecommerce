@@ -1,0 +1,63 @@
+.order{
+  display: flex;
+  padding-bottom: 250px;
+}
+.confirm-order-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.png{
+  padding-right: 150px;
+  padding-left: 50px;
+}
+.confirm-order-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.shipping-address, .cart-items, .thank-you {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.content{
+  font-weight: 400;
+}
+.shipping-address h3, .cart-items h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart-items div {
+  margin-bottom: 10px;
+}
+
+.cart-items p {
+  margin: 0;
+}
+
+.cloud-done-icon {
+  font-size: 36px;
+  color: #5cb85c; 
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.thank-you p {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Place-btn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #fff;
+  font-weight:bold ;
+
+}

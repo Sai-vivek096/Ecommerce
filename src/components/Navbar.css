@@ -1,0 +1,72 @@
+.navbar-container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.navbar-logo {
+    width: 150px;
+  }
+.navbar-search {
+    display: flex;
+    align-items: center;
+  }
+.navbar-searchbox {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 400px;
+}
+.searchbtn {
+    color: rgb(11, 68, 238);
+    border: none;
+    cursor: pointer;
+    background: none;
+    width: 40px;
+    height: 30px;
+}
+.navbar-btnn {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+  }
+  .navbar-btnn:hover{
+    color: black;
+    background-color: gold;
+  }
+.navbar-more{
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    padding: 8px;
+}
+.navbar-cart {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.navbar-bcs{
+    font-size: 13px;
+    cursor: pointer;
+    padding: 8px;
+}
+.moredown{
+    margin-left: 2px;
+}
+  .cart-icon {
+    margin-right: 6px;
+    padding-top: 3px;
+    cursor: pointer;
+  }
+.cart{
+  cursor: pointer;
+}

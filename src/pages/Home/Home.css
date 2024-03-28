@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Long+Cang&family=Major+Mono+Display&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Long+Cang&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spinnaker&family=Yellowtail&display=swap');
+.hero-container{
+    display: flex;
+    background-color:#FFDEAD;
+  }
+  .phone-container{
+    display: flex;
+    background-color:rgb(255, 251, 0);
+  }
+  .fashion-container{
+    display: flex;
+  }
+  .summer{
+    font-family: 'Pacifico', cursive; 
+    color:rgb(248, 6, 6);
+  }
+  .deal{
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .collection{
+    font-family: 'Lobster', cursive; 
+    color:black;
+  }
+  .iphone, .here,.amount{
+    padding-left: 120px;
+    font-family: 'Playfair Display';
+  }
+  .best{
+    font-family: 'Lobster', cursive;
+    color: #800000;
+  }
+  .feet{
+    color: aqua;
+  }
+
+  .hero-content h1 {
+    line-height: 40px;
+    font-size: 70px;
+    margin-left: 40px;
+    padding-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .iphone{
+    color: rgb(165, 42, 128);
+   }
+  .hero-content h3 {
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    max-width: 400px;
+    margin-left: 40px;
+    font-size:30px;
+    padding-top: 60px;
+  }
+  .axis, .amount{
+    padding-left: 120px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .hero-content p {
+    font-weight: 600;
+    color:black;
+    max-width: 400px;
+    margin-left: 40px;
+    font-size:large;
+    padding-top: 40px;
+  }
+
+  .hero-image {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 52px);
+    padding-left: 220px;
+    padding-top: 100px;
+  }
+  .fashion-image {
+    display: flex;
+    align-items: center;
+    height: calc(80vh - 72px);
+    padding-left: 130px;
+    padding-bottom: 20px;
+  }
+  .phone-image {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  .phone-image img{
+    height: 600px;
+  }
+  .hero-image img{
+    height: 700px;
+  }
